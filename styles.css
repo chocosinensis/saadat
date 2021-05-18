@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
-*, ::before, ::after {
+
+*,
+::before,
+::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -7,6 +10,7 @@
   color: #000;
   scrollbar-width: none;
 }
+
 body {
   min-height: 100vh;
   min-width: 100vw;
@@ -15,12 +19,14 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 div {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
 }
+
 h1 {
   color: #fff;
   font-size: 2.5em;
@@ -32,6 +38,7 @@ h1:hover {
   transform: scale(1.2);
   text-shadow: 0 0 12px rgba(255, 255, 255, 0.5);
 }
+
 a {
   display: inline-block;
   margin-top: 20px;
